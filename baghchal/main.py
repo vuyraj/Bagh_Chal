@@ -4,6 +4,8 @@ from baghchal.board import Board
 
 WIN = pygame.display.set_mode(WIDTH,HEIGHT)
 pygame.display.set_caption('!!! BAGH  CHAL !!! ')
+icon = pygame.image.load('tiger.png')
+pygame.display.set_icon(icon)
 
 def main():
     run = True
